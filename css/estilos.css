@@ -1,0 +1,426 @@
+/* así agrego comentarios en css */
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0px;
+  background-color: transparent;
+}
+
+.logo {
+  padding-left: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: normal;
+}
+
+ol, 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+figure {
+  margin: 0;
+}
+
+h1 {
+  font-size: 30px;
+  color: antiquewhite;
+  line-height: 1.5;
+  letter-spacing: -.2px;
+  text-transform: capitalize; /* Esto sirve para transformar el texto */
+  text-decoration: dashed;
+  margin: 0 0;
+  padding-left: 20px;
+  font-family: 'Share Tech Mono';
+  font-weight: bold;
+}
+
+h1 strong {
+  color: #653B7A;
+  margin: 0px;
+}
+
+h2 {
+  color: antiquewhite;
+  text-transform: uppercase;
+  font-family: 'Share Tech Mono';
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+  padding-left: 10px;
+  margin: auto;
+}
+
+.hero {
+  height: 400px;
+  background-color: #1b2127;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hero-image {
+  object-fit: cover;
+}
+
+
+.portfolio {
+  padding: 20px;
+  background-image: url('../images/background.svg');
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.project {
+  /*border-top-color: red;
+  border-top-width: 15px;
+  border-top-style: solid;*/
+  border-radius: 10px;
+  border-top-left-radius: 20px;
+  margin: 20px;
+  padding-inline-start: 20px;
+  background-color:#093F4C;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(211, 211, 211);
+  height: 400px;
+  flex-wrap: wrap;
+}
+
+.project-title {
+  font-size: 30px;
+  font-family: 'Share Tech Mono';
+  margin-bottom: 10px;
+  margin-top: -20px;
+}
+
+.project-course {
+  margin: 10px 0;
+  font-family: 'Share Tech Mono';
+  font-size: 15px;
+}
+
+.project-date {
+  margin: 15px 0;
+}
+
+.project-url {
+  margin: 10px 0;
+  text-decoration: none;
+  font-family: 'Share Tech Mono';
+  font-size: 15px;
+}
+
+.project-url a {
+  color: inherit;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+}
+.project-description {
+  font-size: 15px;
+  font-family: 'Share Tech Mono';
+  text-align: justify;
+}
+
+
+
+.project-details {
+  width: 50%;
+}
+
+.project-imageContainer {
+  width: 40%;
+  justify-content: right;  
+}
+
+.project-imageContainer img {
+  max-width: 100%;
+  
+}
+
+.header {
+  background-color: #1b2127;
+  color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.menu {
+  height: inherit;
+}
+
+.header ol {
+  display: flex;
+  height: inherit;
+}
+
+.header ol li {
+  height: inherit;
+}
+
+.header a {
+  color: antiquewhite;
+  text-decoration: none;
+  font-weight: bold;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.footer {
+  color: white;
+  background-color: #191919;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 5px;
+  margin: 0px;
+  flex-wrap: wrap;
+}
+
+.footer div p a {
+  color: white;
+  text-decoration: none;
+
+}
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url('../images/background_under.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-bottom: -1px;
+}
+
+.event {
+  margin: 10px;
+  width: 480px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #093f4c;
+  
+}
+
+.event-list-title {
+  margin-left: 20px;
+  background: transparent;
+  color: #1b2127;
+}
+
+.event img {
+  width: 480px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.event-detail {
+  margin: 20px 40px;
+  margin-top: -40px;
+  background-color: white;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.event-description {
+  text-align: center;
+  font-weight: 500;
+}
+
+.event-url {
+  border: 1px solid #480049; 
+  padding: 5px 20px;
+  text-decoration: none;
+  color: #480049;
+  border-radius: 5px;
+
+}
+
+.contact {
+  background-color:#1b2127;
+  color: whitesmoke;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.social {
+}
+
+.social-link {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  margin: 0px 10px;
+}
+
+.social-link.twitter {
+  background-image: url('../images/twitter.png');
+}
+
+.social-link.linkedin {
+  background-image: url('../images/linkedin.png');
+}
+
+.social-link.github {
+  background-image: url('../images/github.png');
+}
+
+.social-link.instagram {
+  background-image: url('../images/instagram.png');
+}
+
+.form-email input{
+  border-color: gray;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 5px 20px 5px 25px;
+  background-image: url('../images/envelope.svg');
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+
+}
+
+.form-email button {
+  display: block;
+  margin-top: 10px;
+  background: transparent;
+  color: white;
+  padding: 1px 0;
+  border-radius: 5px;
+  width: 100px;
+  margin-top: 10px;
+  
+}
+
+.form-email h3 {
+  font-family: 'Share Tech Mono';
+}
+
+.form-email {
+  font-family: 'Share Tech Mono';
+}
+.container {
+  max-width: 1000px;
+  width: 100%;
+ /*  flex: 1; */
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
+
+
+/* Desktop first, siempre se empieza desde el MQ más grande */
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    display: block;
+    height: auto;
+    width: auto;
+  }
+  .header ol {
+    display: block;
+  }
+  .header ol li {
+    height: 50px;
+  }
+  .header a {
+    justify-content: center;
+  }
+  .header.logo {
+    text-align: center;
+  }
+
+  .project {
+    display: block;
+    margin: 70px;
+    padding: 20px;
+    height: auto;
+    width: auto;
+    font-size: 10px;
+  }
+  .project-title {
+    margin: auto;
+  }
+  .project-details {
+    width: auto;
+  }
+  .project-imageContainer {
+    width: auto;
+    text-align: center;
+  }
+  .project-details {
+    width: auto;
+    font-size: 16px;
+  }
+  .project-course, .project-date, .project-url {
+    margin: .4em 0;
+  } 
+
+  .project-title {
+    font-size: 1.5em;
+    margin-bottom: .3em;
+  }
+  .project-url {
+    font-size: .6em;
+    margin: auto;
+  }
+  .project-url a {
+    font-size: 1em;
+  }
+  .project-course {
+    font-size: .6em;
+  }
+  .project-date {
+    font-size: .6em;
+  }
+  .project-description {
+    font-size: .6em;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+/*   .project-details {
+    width: auto;
+    font-size: 12px;
+  } */
+
+}
+ 
+@media screen and (max-width: 320px) {
+
+}
