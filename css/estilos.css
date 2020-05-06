@@ -111,18 +111,18 @@ h2 {
 .project-course {
   margin: 10px 0;
   font-family: 'Share Tech Mono';
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .project-date {
-  margin: 15px 0;
+  margin: 18px 0;
 }
 
 .project-url {
   margin: 10px 0;
   text-decoration: none;
   font-family: 'Share Tech Mono';
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .project-url a {
@@ -132,7 +132,7 @@ h2 {
   font-family: inherit;
 }
 .project-description {
-  font-size: 15px;
+  font-size: 18px;
   font-family: 'Share Tech Mono';
   text-align: justify;
 }
@@ -475,19 +475,19 @@ h2 {
     font-size: 1em;
   }
   .project-url {
-    font-size: 0.45em;
+    font-size: 0.48em;
     margin: auto;
   }
   .project-url a {
     font-size: 1em;
   }
   .project-course {
-    font-size: 0.45em;
+    font-size: 0.48em;
   }
   .project-date {
-    font-size: 0.45em;
+    font-size: 0.48em;
   }
   .project-description {
-    font-size: 0.45em;
+    font-size: 0.48em;
   }
 }
