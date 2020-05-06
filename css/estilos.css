@@ -80,7 +80,6 @@ h2 {
   padding: 20px;
   background-image: url('../images/background.svg');
   background-repeat: no-repeat;
-  width: 100%;
 }
 
 .project {
@@ -328,8 +327,8 @@ h2 {
 }
 .container {
   max-width: 1000px;
-  width: 100%;
- /*  flex: 1; */
+  /* width: 100%; */
+  flex: 1;
   margin: 0 auto;
   display: inherit;
   justify-content: inherit;
