@@ -97,21 +97,21 @@ h2 {
   align-items: center;
   justify-content: space-between;
   color: rgb(211, 211, 211);
-  height: 400px;
+  height: 420px;
   flex-wrap: wrap;
 }
 
 .project-title {
   font-size: 22px;
   font-family: 'Share Tech Mono';
-  margin-bottom: 10px;
-  margin-top: -20px;
+  margin-bottom: -10px;
+  margin-top: 20px;
 }
 
 .project-course {
-  margin: 10px 0;
+  margin: 20px 0px 10px 0px;
   font-family: 'Share Tech Mono';
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .project-date {
@@ -122,7 +122,7 @@ h2 {
   margin: 10px 0;
   text-decoration: none;
   font-family: 'Share Tech Mono';
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .project-url a {
@@ -132,9 +132,10 @@ h2 {
   font-family: inherit;
 }
 .project-description {
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Share Tech Mono';
   text-align: justify;
+  margin: 15px 0px 10px 0px;
 }
 
 
@@ -343,7 +344,12 @@ h2 {
 /* Desktop first, siempre se empieza desde el MQ más grande */
 
 @media screen and (max-width: 1024px) {
-
+  .project {
+    margin: 70px;
+    padding: 20px;
+    height: auto;
+    width: auto;
+  }
 }
 
 @media screen and (max-width: 767px) {
