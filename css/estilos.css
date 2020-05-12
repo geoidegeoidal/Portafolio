@@ -135,7 +135,7 @@ h2 {
   font-size: 16px;
   font-family: 'Share Tech Mono';
   text-align: justify;
-  margin: 15px 0px 10px 0px;
+  margin: 15px 0px 10epx 0px;
 }
 
 
@@ -344,12 +344,16 @@ h2 {
 /* Desktop first, siempre se empieza desde el MQ más grande */
 
 @media screen and (max-width: 1024px) {
+  .container {
+    padding: 0 1em;
+  }
   .project {
     margin: 70px;
     padding: 20px;
     height: auto;
     width: auto;
   }
+  
 }
 
 @media screen and (max-width: 767px) {
@@ -438,10 +442,6 @@ h2 {
   }
 }
  
-
-/* MEDIA QUERIES */
-
-
 @media screen and (max-width: 480px) {
 /*   .project-details {
     width: auto;
@@ -470,7 +470,22 @@ h2 {
   .project-description {
     font-size: 0.56em;
   }
+  .contact {
+    height: auto;
+    padding: 1.5em 0;
+    text-align: center;
+    display: block;
+  }
+  .form-email h3 {
+    margin-top: 0;
+  }
+  .footer {
+    display: block;
+    text-align: center;
+    border: 1px solid transparent;
+  }
 }
+
  
 @media screen and (max-width: 320px) {
   .project-title {
