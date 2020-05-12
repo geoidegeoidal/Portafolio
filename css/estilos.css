@@ -447,6 +447,9 @@ h2 {
     width: auto;
     font-size: 12px;
   } */
+  .container {
+    width: 100%;
+  }
   .project-title {
     font-size: 1.025em;
     margin-bottom: .3em;
