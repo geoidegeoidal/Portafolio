@@ -357,6 +357,20 @@ h2 {
 }
 
 @media screen and (max-width: 767px) {
+  .hero {
+    height: auto;
+    width: auto;
+    position: relative;
+  }
+  .hero image {
+    position: absolute;
+    width: auto;
+    z-index: 1;
+  }
+  h1 {
+    font-size: 1.8em;
+    z-index: 2;
+  }
   .header {
     display: block;
     height: auto;
@@ -447,8 +461,19 @@ h2 {
     width: auto;
     font-size: 12px;
   } */
+  .hero-image {
+    width: 60%;
+    height: 60%;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
   .container {
-    width: 100%;
+    width: auto;
+  }
+  .project {
+    margin-left: 50px;
+    margin-right: 50px;
   }
   .project-title {
     font-size: 1.025em;
@@ -456,22 +481,23 @@ h2 {
   }
   h2 {
     font-size: 1.025em;
+    width: auto;
   }
   .project-url {
-    font-size: 0.56em;
+    font-size: 0.6em;
     margin: auto;
   }
   .project-url a {
     font-size: 1em;
   }
   .project-course {
-    font-size: 0.56em;
+    font-size: 0.6em;
   }
   .project-date {
-    font-size: 0.56em;
+    font-size: 0.6em;
   }
   .project-description {
-    font-size: 0.56em;
+    font-size: 0.6em;
   }
   .contact {
     height: auto;
@@ -491,6 +517,15 @@ h2 {
 
  
 @media screen and (max-width: 320px) {
+  .body {
+    width: auto;
+  }
+  .container {
+    width: auto;
+  }
+  h1 {
+    font-size: 1.1em;
+  }
   .project-title {
     font-size: 1em;
     margin-bottom: .3em;
