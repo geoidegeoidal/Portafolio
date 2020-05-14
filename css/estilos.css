@@ -353,8 +353,31 @@ h2 {
     height: auto;
     width: auto;
   }
-  
+    h2 {
+      padding-top: 2em;
+    }
 }
+
+@media screen and (max-width: 847px) {
+  .hero {
+    display: block;
+  }
+  .hero-image {
+    display: block;
+    margin: auto;
+  }
+  h1 {
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   padding-top: 1em;
+  }
+  h2 {
+    padding-top: 2em;
+  }
+
+}
+
 
 @media screen and (max-width: 767px) {
   .hero {
@@ -370,6 +393,10 @@ h2 {
   h1 {
     font-size: 1.8em;
     z-index: 2;
+  }
+  h2 {
+    padding-top: 1.5em;
+
   }
   .header {
     display: block;
@@ -479,9 +506,11 @@ h2 {
     font-size: 1.025em;
     margin-bottom: .3em;
   }
+  
   h2 {
     font-size: 1.025em;
     width: auto;
+    padding-top: 0.9em;
   }
   .project-url {
     font-size: 0.6em;
@@ -531,7 +560,13 @@ h2 {
     margin-bottom: .3em;
   }
   h2 {
-    font-size: 1em;
+    font-size: 16px;
+    padding-top: 0;
+    margin: 0;
+    width: auto;
+  }
+  .hero-image {
+    padding: 1em 0;
   }
   .project-url {
     font-size: 0.46em;
