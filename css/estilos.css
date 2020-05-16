@@ -572,35 +572,38 @@ h2 {
   .container {
     width: auto;
   }
+  .portfolio {
+    padding: 0;
+  }
   .project {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .project-title {
-    font-size: 1.025em;
+    font-size: 1.2em;
     margin-bottom: .3em;
   }
   
   h2 {
-    font-size: 1.025em;
+    font-size: 1.2em;
     width: auto;
     padding-top: 0.9em;
   }
   .project-url {
-    font-size: 0.6em;
+    font-size: 0.9em;
     margin: auto;
   }
   .project-url a {
     font-size: 1em;
   }
   .project-course {
-    font-size: 0.6em;
+    font-size: 0.9em;
   }
   .project-date {
-    font-size: 0.6em;
+    font-size: 0.9em;
   }
   .project-description {
-    font-size: 0.6em;
+    font-size: 0.9em;
   }
   .contact {
     height: auto;
@@ -643,19 +646,19 @@ h2 {
     padding: 1em 0;
   }
   .project-url {
-    font-size: 0.46em;
+    font-size: 0.7em;
     margin: auto;
   }
   .project-url a {
     font-size: 1em;
   }
   .project-course {
-    font-size: 0.46em;
+    font-size: 0.7em;
   }
   .project-date {
-    font-size: 0.46em;
+    font-size: 0.7em;
   }
   .project-description {
-    font-size: 0.46em;
+    font-size: 0.7em;
   }
 }
