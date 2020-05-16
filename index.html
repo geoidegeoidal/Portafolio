@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/estilos.css">
   </head>
   <body>
+    <i class="icon-menu burguer-button" id="burger-menu"></i>
     <header class="header">
       <div class="container">
         <figure class="logo">
@@ -101,11 +102,12 @@
         </article>
       </div>
     </section>
+    </video>
     <div class="container">
       <h2 class="event-list-title" id="experiencia">
         Más sobre mi experiencia
       </h2>
-    </div>    
+    </div>   
     <section class="event-list" id="eventos">
       <div class="container">
         <article class="event">
@@ -154,5 +156,22 @@
         </div>
       </div>
     </footer>
+    <script>
+      const menu = document.querySelector('.menu');
+      const burgerButton = document.querySelector('#burger-menu');
+      
+
+      burgerButton.addEventListener('click', hideShow)
+
+      function hideShow() {
+        if (menu.classList.contains('is-active')) {
+          menu.classList.remove('is-active');
+        } 
+        else {
+          menu.classList.add('is-active');
+        }
+        
+      }
+    </script>
   </body>
 </html>
