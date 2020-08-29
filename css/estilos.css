@@ -350,7 +350,7 @@ h2 {
   border-radius: 5px;
   width: 100px;
   margin-top: 10px;
-  
+
 }
 
 .form-email h3 {
@@ -386,8 +386,8 @@ h2 {
   top: 5px;
   color: white;
 
-  
-} 
+
+}
 
 /* Desktop first, siempre se empieza desde el MQ más grande */
 
@@ -416,10 +416,10 @@ h2 {
     padding: 20px 0px;
   }
   h1 {
-   text-align: center;
-   justify-content: center;
-   align-items: center;
-   padding-top: 1em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
   }
   h2 {
     padding-top: 4em;
@@ -432,7 +432,7 @@ h2 {
 @media screen and (max-width: 767px) {
   .burguer-button {
     display: block;
-    
+
   }
   .logo {
     text-align: center;
@@ -521,7 +521,7 @@ h2 {
   }
   .project-course, .project-date, .project-url {
     margin: .4em 0;
-  } 
+  }
 
   .project-title {
     font-size: 1.3em;
@@ -548,7 +548,7 @@ h2 {
   .event {
     width: auto;
     flex-shrink: initial;
-  } 
+  }
   .event img {
     width: 100%;
   }
@@ -561,7 +561,7 @@ h2 {
     font-size: 1.3em;
   }
 }
- 
+
 @media screen and (max-width: 480px) {
 /*   .project-details {
     width: auto;
@@ -589,7 +589,7 @@ h2 {
     font-size: 1.2em;
     margin-bottom: .3em;
   }
-  
+
   h2 {
     font-size: 1.2em;
     width: auto;
@@ -627,7 +627,7 @@ h2 {
   }
 }
 
- 
+
 @media screen and (max-width: 320px) {
   .body {
     width: auto;
